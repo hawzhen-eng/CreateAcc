@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>A Complex Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="page1">
+
+        <div class="open-account">
+            <h1>Create Your Account</h1>
+            <p>your email and password to watch on your favorite devices.</p>
+        </div>
+
+        <form action="#" method="POST" id="form" class="form" onsubmit="return checkInputs()">
+
+            <div class="form-control">
+                <label for="firstname">First Name</label>
+                <input type="text" name="firstname" placeholder="First Name" id="firstName">
+                <label for="lastname name">Last Name</label>
+                <input type="text" name="lastname" placeholder="Last Name" id="lastName"> ​
+            </div>
+            <div class="form-control">
+                <label for="address">Address</label>
+                <input type="text" name="address" placeholder="Street Address" id="addrress">
+                <label for="city">City</label>
+                <input type="text" name="city" placeholder="City" id="city"> ​
+                <label for="state">State</label>
+                <select name="state">
+                    <option value="">Choose State</option>
+                    <option value="NY">New York</option>
+                    <option value="WS">Washington</option>
+                    <option value="CA">California</option>
+                    <option value="AR">Arizona</option>
+                    <option value="WY">Alabama</option>
+                    <option value="PE">Pennsylvania</option>
+                </select> ​
+                <span><label for="zipcode">Zip code</label></span>
+                <input type="text" name="zipcode" placeholder="Zip Code" maxlength="5"> ​
+            </div>
+            <div class="form-control">
+                <label for="email">Email</label>
+                <input type="email" name="email" placeholder="Email Address">
+                <label for="password">Password</label>
+                <input type="password" name="pwd" placeholder="Password"> ​
+            </div>
+            <input type="button" name="next" value="Next" onClick="file2()">
+        </form>
+    </div>
+    ​<form>
+        <div id="page2">
+            ​
+            <div class="pg2">
+                <div class="radio">
+                    <div>
+                        <input type="radio" name="package">Package 1
+                        <h1>Basic, ( $8.99 ) per month HD</h1>
+                    </div>
+                    <div>
+                        <input type="radio" name="package">Package 2
+                        <h1>Standard, ( $12.99 ) per month ULTRA HD</h1>
+                    </div>
+                    <div>
+                        <input type="radio" name="package">Package 3
+                        <h1>Prem., ($15.99) per month 4K</h1>
+                    </div>
+                </div>
+                ​
+                <div class="card">
+                    <label for="cc-number">Card Number</label>
+                    <input type="text" autocomplete="cc-number" name="ccnum" placeholder="Card Number">
+                    <label for="cc-exp">Expiration</label>
+                    <input type="text" autocomplete="cc-exp" name="ccexp" placeholder="Expiration">
+                    <label for="cc-csc">Security Code</label>
+                    <input type="text" autocomplete="cc-csc" name="cccvv" placeholder="Security Code">
+                    <label for="cc-name">Cardholder Name</label>
+                    <input type="text" autocomplete="cc-name" name="ccname" placeholder="Cardholder Name"> ​
+                    <input type="hidden" name="amount" value="10.00">
+                </div>
+                <div>
+                    <input type="checkbox" name="TOS"> I agree to the Terms of Use of this site. ​
+                </div>
+                <div>
+                    <input type="submit" name="submit" value="Subscribe">
+                    <input type="button" name="previous" value="Previous" onClick="file1()">
+                </div>
+            </div>
+        </div>
+        ​
+    </form>
+
+    <script src="/display.js"></script>
+</body>
+
+</html>

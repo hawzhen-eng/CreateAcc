@@ -1,0 +1,126 @@
+.open-account {
+    padding: 0px 0px 75px 0px;
+    text-align: center;
+}
+
+.open-account h1 {
+    font-size: 3.01rem;
+}
+
+.open-account p {
+    font-size: 1.06rem;
+    color: gray;
+}
+
+#page1 {
+    margin: 10p;
+    padding: 75px 75px;
+    color: rgb(8, 82, 82);
+    font-size: 1.25rem;
+    font-weight: 900;
+    align-content: center;
+    display: inline-block;
+    justify-content: space-between;
+    max-width: 100%;
+    border: 100px solid rgb(226, 197, 143);
+}
+
+div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 30px;
+}
+
+input[type=text],
+[type=email],
+[type=password],
+select {
+    width: 100%;
+    padding: 20px 40px;
+    margin: 10px 50px 10px 50px;
+    display: inline-block;
+    border: 1.5px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+input[type=button] {
+    width: 25%;
+    background-color: #3020be;
+    color: white;
+    padding: 10px;
+    margin: 10px 37.5%;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+input[type=button]:hover {
+    background-color: rgb(73, 73, 199);
+}
+
+input[type=submit] {
+    width: 50%;
+    background-color: #28cf22;
+    color: black;
+    padding: 10px;
+    margin: 0 25%;
+    border-radius: 40px;
+    cursor: pointer;
+    border: none;
+}
+
+input[type=submit]:hover {
+    background-color: lawngreen;
+}
+
+#page2 {
+    margin: 0px;
+    display: none;
+    text-align: left;
+}
+
+.pg2 {
+    margin: 35px;
+    border-radius: 10px;
+    background-color: #a18989;
+    padding: 40px;
+    max-width: 100%;
+}
+
+#page2 div input[type="text"] {
+    padding: 15px 10px;
+    margin: 20px;
+    display: inline-block;
+    border: 0.75px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+    max-width: 90%;
+}
+
+#page2 .pg2 {
+    margin: 20px;
+    padding: 100px 100px;
+    color: rgb(8, 82, 82);
+    font-size: 1.25rem;
+    font-weight: 900;
+    align-content: center;
+    display: inline-block;
+    justify-content: space-between;
+    max-width: 100%;
+    border: 10px solid rgb(226, 197, 143);
+}
+
+.pg2 input[type=radio] {
+    display: inline-block;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.radio {
+    margin: 0px;
+    padding-bottom: 50px;
+    font-size: 1rem;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
