@@ -81,11 +81,11 @@ function file1() {
 //   formControl.className = "form-control success";
 // }
 
-function isEmail(email) {
-  return /^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$/.test(
-    email
-  );
-}
+// function isEmail(email) {
+//   return /^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$/.test(
+//     email
+//   );
+// }
 
 function isPassword(password) {
   return /^(?=.*[0-9]+.*)(?=.*[a-zA-Z]+.*)[0-9a-zA-Z]{6,}$/.test(password);
